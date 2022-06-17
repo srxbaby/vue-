@@ -1,0 +1,1 @@
+export const tab=()=>console.log('奔流到海不复还');

@@ -1,0 +1,1 @@
+export const marquee=()=>console.log('黄河之水天上来');
