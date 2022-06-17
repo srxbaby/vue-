@@ -33,14 +33,18 @@ module.exports={
           parser:{
             dataUrlCondition:{
               maxSize:2*1024
-            },
-            generator:{
-              filename:'images/[hasa:6][ext]'
             }
+          },
+          generator:{
+            filename:'images/[hasa:4][ext]'
           }
         },
         {
-          
+          test:/\.(eot|svg|ttf|woff|woff2)$/i,
+          type:'asset/resource',
+          generator:{
+            filename:'fonts/[hasa:3][ext]'
+          }
         }
       ]
     }
