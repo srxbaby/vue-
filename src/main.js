@@ -20,5 +20,5 @@ import './assets/fonts/iconfont.css'
 const app=()=>console.log('你真是个小可爱');
 console.log(app);
 
-
+import Vue from './app.vue'
 
